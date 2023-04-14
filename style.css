@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0F0F0F;
+}
+
+div {
+    width: 50%;
+    margin: 100px auto;
+    background-color: transparent;
+}
+
+a {
+    background-color: white;
+    color: #0F0F0F;
+    display: block;
+    margin: 20px 0px;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #d4d4d4;
+}
+
+@media (max-width: 800px) {
+    div {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    div {
+        width: 90%;
+    }
+}
